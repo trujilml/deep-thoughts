@@ -31,6 +31,10 @@ type Reaction {
     createdAt: String
     username: String
 }
+type Mutation {
+    login(email: String!, password: String!): User
+    addUser(username: String!, email: String!, password: String!): User
+}
 `;
 
 //export typeDefs
