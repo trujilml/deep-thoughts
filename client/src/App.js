@@ -28,6 +28,7 @@ function App() {
     <div className='flex-column justify-flex-start min-100-vh'>
       <Header />
       <div className='container'>
+        <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/signup" component={Signup} />
@@ -35,6 +36,7 @@ function App() {
       <Route exact path="/thought" component={SingleThought} />
 
       <Route component={NoMatch} />
+      </Switch>
       </div>
       <Footer />
     </div>
