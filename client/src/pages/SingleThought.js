@@ -17,7 +17,6 @@ const SingleThought = (props) => {
   if (loading) {
     return <div>Loading...</div>;
   }
-  // console.log(thoughtId);
 
   return (
     <div>
