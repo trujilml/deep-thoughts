@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/trujilml/deep-thoughts/issues"
   },
-  "homepage": "https://github.com/trujilml/deep-thoughts#readme"
+  "homepage": "https://github.com/trujilml/deep-thoughts#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
 }
